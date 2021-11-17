@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
+    "noImplicitAny": false,
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
@@ -33,7 +34,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/directives/swipe.js"  ],
   "exclude": [
     "node_modules"
   ]
